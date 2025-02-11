@@ -1,10 +1,10 @@
 # О проекте
 
-TG mini app (to do) 
+TG mini app (To Do App) 
 
 # Цель проекта
 
-Создать TG mini app (to do) при помощи FastApi, VueJS.
+Создать TG mini app (To Do App) при помощи FastApi, VueJS.
 
 # Инструменты
 
