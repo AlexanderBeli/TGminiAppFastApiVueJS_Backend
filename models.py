@@ -3,7 +3,7 @@ from sqlalchemy.ext.asyncio import AsyncAttrs, async_sessionmaker, create_async_
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 # подключение к БД, echo - логирование в терминале
-engine = create_async_engine(url="sqlite+aiosqlite:#/db.sqlite3", echo=True)
+engine = create_async_engine(url="sqlite+aiosqlite:///db.sqlite3", echo=True)
 
 # сессия, чтобы делать изменения
 # expire_on_commit - чтобы после изменения сессия не закрывалась
